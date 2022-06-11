@@ -1,0 +1,256 @@
+{
+    "Core": {},
+    "Game": {},
+    "Tool": {
+        "Backlog Manager": {
+            "Create Task": {
+                "Emulate Search Button When Pressing Enter": {
+                    "completed": true,
+                    "creation_date": "2022-06-04",
+                    "description": "When we press enter in the search bar whe should emulate a click on the search button",
+                    "due_date": "2022-06-04",
+                    "effort_point": 2,
+                    "name": "/Tool/Backlog Manager/Create Task/Emulate Search Button When Pressing Enter",
+                    "node_type": 1,
+                    "priority": "MEDIUM",
+                    "resolver": "gbaril",
+                    "reviewer": "gbaril",
+                    "start_date": "0000-00-00",
+                    "type": "FEATURE"
+                },
+                "Normalize Task Search Path": {
+                    "completed": true,
+                    "creation_date": "2022-06-04",
+                    "description": "The task search path should be normalized before doing a search.\nRequirements:\n- Replace all antislashes with slashes\n- Add a leading slash in the path if none is there\n- Remove the trailing slash in the path if one is there",
+                    "due_date": "2022-06-04",
+                    "effort_point": 2,
+                    "name": "/Tool/Backlog Manager/Create Task/Normalize Task Search Path",
+                    "node_type": 1,
+                    "priority": "VERY HIGH",
+                    "resolver": "gbaril",
+                    "reviewer": "gbaril",
+                    "start_date": "0000-00-00",
+                    "type": "FEATURE"
+                },
+                "Prefill fields": {
+                    "completed": false,
+                    "creation_date": "2022-06-04",
+                    "description": "Prefill some fields of the create task form\nrequirements:\n- Default value for task type: FEATURE\n- Default value for task priority: MEDIUM\n- Default value for resolver: gbaril\n- Default value for reviewer: gbaril\n- Default value for effort: 1\n- Default value for due date: Current Date\n- Default value for Start Task: True\n",
+                    "due_date": "2022-06-04",
+                    "effort_point": 2,
+                    "name": "/Tool/Backlog Manager/Create Task/Prefill fields",
+                    "node_type": 1,
+                    "priority": "MEDIUM",
+                    "resolver": "gbaril",
+                    "reviewer": "gbaril",
+                    "start_date": "2022-06-04",
+                    "type": "FEATURE"
+                },
+                "Update Task View When Creating A New Task": {
+                    "completed": true,
+                    "creation_date": "2022-06-04",
+                    "description": "We Should update the task view when creating a new task",
+                    "due_date": "2022-06-04",
+                    "effort_point": 2,
+                    "name": "/Tool/Backlog Manager/Create Task/Update Task View When Creating A New Task",
+                    "node_type": 1,
+                    "priority": "HIGH",
+                    "resolver": "gbaril",
+                    "reviewer": "gbaril",
+                    "start_date": "0000-00-00",
+                    "type": "BUG"
+                }
+            },
+            "Delete Task": {
+                "Multi Selection Delete Task": {
+                    "completed": true,
+                    "creation_date": "2022-06-05",
+                    "description": "Capacity of the user to remove selected items in the task view",
+                    "due_date": "2022-06-05",
+                    "effort_point": 2,
+                    "name": "/Tool/Backlog Manager/Delete Task/Multi Selection Delete Task",
+                    "node_type": 1,
+                    "priority": "MEDIUM",
+                    "resolver": "gbaril",
+                    "reviewer": "gbaril",
+                    "start_date": "0000-00-00",
+                    "type": "FEATURE"
+                }
+            },
+            "Edit Task": {
+                "Change Name Of Task": {
+                    "completed": true,
+                    "creation_date": "2022-06-05",
+                    "description": "We should be able to change the name of a task in the edit dialog. (Same effect as move)",
+                    "due_date": "2022-06-05",
+                    "effort_point": 2,
+                    "name": "/Tool/Backlog Manager/Edit Task/Change Name Of Task",
+                    "node_type": 1,
+                    "priority": "MEDIUM",
+                    "resolver": "gbaril",
+                    "reviewer": "gbaril",
+                    "start_date": "2022-06-05",
+                    "type": "FEATURE"
+                },
+                "Close Dialog On Submit": {
+                    "completed": true,
+                    "creation_date": "2022-06-04",
+                    "description": "The edit task dialog should close when we push the submit button",
+                    "due_date": "2022-06-04",
+                    "effort_point": 1,
+                    "name": "/Tool/Backlog Manager/Edit Task/Close Dialog On Submit",
+                    "node_type": 1,
+                    "priority": "MEDIUM",
+                    "resolver": "gbaril",
+                    "reviewer": "gbaril",
+                    "start_date": "2022-06-04",
+                    "type": "FEATURE"
+                },
+                "Delete Task": {
+                    "completed": true,
+                    "creation_date": "2022-06-04",
+                    "description": "We should be able to delete a task from the edit task dialog",
+                    "due_date": "2022-06-04",
+                    "effort_point": 3,
+                    "name": "/Tool/Backlog Manager/Edit Task/Delete Task",
+                    "node_type": 1,
+                    "priority": "MEDIUM",
+                    "resolver": "gbaril",
+                    "reviewer": "gbaril",
+                    "start_date": "0000-00-00",
+                    "type": "FEATURE"
+                },
+                "Editable Task Priority": {
+                    "completed": true,
+                    "creation_date": "2022-06-03",
+                    "description": "Make the task priority editable",
+                    "due_date": "2022-06-04",
+                    "effort_point": 1,
+                    "name": "/Tool/Backlog Manager/Edit Task/Editable Task Priority",
+                    "node_type": 1,
+                    "priority": "MEDIUM",
+                    "resolver": "gbaril",
+                    "reviewer": "gbaril",
+                    "start_date": "2022-06-03",
+                    "type": "FEATURE"
+                },
+                "Editable Task Type": {
+                    "completed": true,
+                    "creation_date": "2022-06-04",
+                    "description": "Make the task type editable",
+                    "due_date": "2022-06-04",
+                    "effort_point": 1,
+                    "name": "/Tool/Backlog Manager/Edit Task/Editable Task Type",
+                    "node_type": 1,
+                    "priority": "HIGH",
+                    "resolver": "gbaril",
+                    "reviewer": "gbaril",
+                    "start_date": "2022-06-04",
+                    "type": "FEATURE"
+                },
+                "Fix edit count": {
+                    "completed": true,
+                    "creation_date": "2022-06-04",
+                    "description": "There was a bug where the edit confirmation dialog would trigger when no modification have been made",
+                    "due_date": "2022-06-04",
+                    "effort_point": 1,
+                    "name": "/Tool/Backlog Manager/Edit Task/Fix edit count",
+                    "node_type": 1,
+                    "priority": "HIGH",
+                    "resolver": "gbaril",
+                    "reviewer": "gbaril",
+                    "start_date": "0000-00-00",
+                    "type": "BUG"
+                },
+                "Refresh Task View On Edit": {
+                    "completed": true,
+                    "creation_date": "2022-06-04",
+                    "description": "",
+                    "due_date": "2022-06-04",
+                    "effort_point": 1,
+                    "name": "/Tool/Backlog Manager/Edit Task/Refresh Task View On Edit",
+                    "node_type": 1,
+                    "priority": "MEDIUM",
+                    "resolver": "gbaril",
+                    "reviewer": "gbaril",
+                    "start_date": "0000-00-00",
+                    "type": "FEATURE"
+                }
+            },
+            "View Task": {
+                "Auto refresh tasks on load": {
+                    "completed": true,
+                    "creation_date": "2022-06-04",
+                    "description": "Make sure to auto refresh tasks on load",
+                    "due_date": "2022-06-04",
+                    "effort_point": 1,
+                    "name": "/Tool/Backlog Manager/View Task/Auto refresh tasks on load",
+                    "node_type": 1,
+                    "priority": "HIGH",
+                    "resolver": "gbaril",
+                    "reviewer": "gbaril",
+                    "start_date": "2022-06-04",
+                    "type": "BUG"
+                },
+                "Filter (Un)Completed Tasks": {
+                    "completed": true,
+                    "creation_date": "2022-06-04",
+                    "description": "We should be able to filter out (un)completed Tasks",
+                    "due_date": "2022-06-04",
+                    "effort_point": 3,
+                    "name": "/Tool/Backlog Manager/View Task/Filter (Un)Completed Tasks",
+                    "node_type": 1,
+                    "priority": "VERY HIGH",
+                    "resolver": "gbaril",
+                    "reviewer": "gbaril",
+                    "start_date": "0000-00-00",
+                    "type": "FEATURE"
+                },
+                "Normalize Task Search Path": {
+                    "completed": true,
+                    "creation_date": "2022-06-04",
+                    "description": "The task search path should be normalized before doing a search.\nRequirements:\n- Replace all antislashes with slashes\n- Add a leading slash in the path if none is there\n- Remove the trailing slash in the path if one is there",
+                    "due_date": "2022-06-04",
+                    "effort_point": 2,
+                    "name": "/Tool/Backlog Manager/View Task/Normalize Task Search Path",
+                    "node_type": 1,
+                    "priority": "VERY HIGH",
+                    "resolver": "gbaril",
+                    "reviewer": "gbaril",
+                    "start_date": "2022-06-04",
+                    "type": "FEATURE"
+                },
+                "Show Normalized Task Search Path": {
+                    "completed": true,
+                    "creation_date": "2022-06-04",
+                    "description": "",
+                    "due_date": "2022-06-04",
+                    "effort_point": 1,
+                    "name": "/Tool/Backlog Manager/View Task/Show Normalized Task Search Path",
+                    "node_type": 1,
+                    "priority": "LOW",
+                    "resolver": "gbaril",
+                    "reviewer": "gbaril",
+                    "start_date": "2022-06-04",
+                    "type": "FEATURE"
+                }
+            }
+        }
+    },
+    "ore": {
+        "Test 1": {
+            "completed": false,
+            "creation_date": "2022-06-05",
+            "description": "",
+            "due_date": "2000-01-01",
+            "effort_point": 1,
+            "name": "Core/Test 1",
+            "node_type": 1,
+            "priority": "VERY LOW",
+            "resolver": "gbaril",
+            "reviewer": "gbaril",
+            "start_date": "0000-00-00",
+            "type": "BLOCKER"
+        }
+    }
+}
